@@ -62,7 +62,7 @@ echo "#### Working on $ACC....#####"
 
 mkdir -p NCBI_TaxID_${ACC}
 
-### Get all avbailable genones at all assembly levels (chromosomes, Scaffolds, contigs)
+### Get all available genones at all assembly levels (chromosomes, Scaffolds, contigs) in GenBank database
 perl getSequenceInfo.pl -k bacteria -taxid $ACC -getSummaries NCBI_TaxID_${ACC}/NCBI_TaxID_${ACC}_summary.txt \
                         -date 2003-01-01 -output NCBI_TaxID_${ACC} -dir genbank -log 
 
