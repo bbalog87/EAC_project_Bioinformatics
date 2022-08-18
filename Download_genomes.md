@@ -49,4 +49,4 @@ name where the samples were isolated, or the country is spelled differently.
  - Step 3 : use the Biosample IDs to parse the the country name in metadata
  - step 4: Retain only assembly assocaited with the EAC region
  
- # Step 1:  Download all in Genbank avaible GLASS pathogens assemblies 
+ #### Step 1:  Download all in Genbank avaible GLASS pathogens assemblies 
