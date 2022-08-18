@@ -40,3 +40,11 @@ in Kenya, Uganda, and Tanzania, I found few genomes seqeunces. The script search
 name did not find them because the metadata to the genome submission does not include the country 
 name where the samples were isolated, or the country is spelled differently.
  
+ 
+ ### 2. Second Approach
+
+ In the this approach I  will :
+ 1. Download all in Genbank avaible GLASS pathogens assemblies 
+ 2. Parse the BioSample IDs 
+ 3. use the Biosample IDs to parse the the country name in metadata
+ 4. Retain only assembly assocaited with the EAC region
