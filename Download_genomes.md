@@ -4,6 +4,7 @@
 
 
 ```python
+## Example fecthing data for Tanzania
 #!/usr/bin/bash
 for ACC in $(cut -f1 glassPatho.txt); do
 
