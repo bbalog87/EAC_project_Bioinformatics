@@ -1,4 +1,4 @@
- - ### First Attempt
+  ### 1. First Attempt
  
 The first attempt was to query NCBI genome databases iteratively, attempting to match the 
 geographic location of the isolates containing each EAC country name using the bash script below. This was insufficient
