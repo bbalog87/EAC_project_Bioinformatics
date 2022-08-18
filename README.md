@@ -42,4 +42,4 @@ This project aims to:
 
 
 ### TASK 1: Download pathogens genomes from public databases including NCBI, ENA, Genbank.
-- [Scripts to fetch whole genomes datasets from the GLASS pathogens isloated in ECA region](https://github.com/bbalog87/EAC_project_Bioinformatics/blob/main/Download_genomes.md)
+- [Scripts to fetch whole genomes datasets of GLASS pathogens isloated in ECA region](https://github.com/bbalog87/EAC_project_Bioinformatics/blob/main/Download_genomes.md)
