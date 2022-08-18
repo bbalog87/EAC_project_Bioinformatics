@@ -42,3 +42,4 @@ This project aims to:
 
 
 ### TASK 1: Download pathogens genomes from public databases including NCBI, ENA, Genbank.
+
