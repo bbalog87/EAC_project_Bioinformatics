@@ -36,3 +36,7 @@ This project aims to:
 | Rwanda      | RWA  | RW   |
 | South Sudan | SSD  | SS   |
 | DRC         | COD  | CD   |
+
+
+
+### TASK 1: Download paathoges genomes from public databases inclkuding NCBI, ENA, Genbank.
