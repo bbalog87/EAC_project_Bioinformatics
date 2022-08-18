@@ -50,3 +50,26 @@ name where the samples were isolated, or the country is spelled differently.
  - step 4: Retain only assembly assocaited with the EAC region
  
  #### Step 1:  Download all in Genbank avaible GLASS pathogens assemblies (in Progress ...)
+ 
+ ```bash
+ #!/usr/bin/bash
+
+
+## Loop through accession-Nr of the GLASS species
+for ACC in $(cut -f1 glassPatho.txt); do
+
+echo "#### Working on $ACC....#####"
+
+mkdir -p NCBI_TaxID_${ACC}
+
+### Get all avbailable genones at all assembly levels (chromosomes, Scaffolds, contigs)
+perl getSequenceInfo.pl -k bacteria -taxid $ACC -getSummaries NCBI_TaxID_${ACC}/NCBI_TaxID_${ACC}_summary.txt \
+                        -date 2003-01-01 -output NCBI_TaxID_${ACC} -dir genbank -log 
+
+
+echo "#### Working on $ACC COMPLTED !! #####"
+
+done 
+```
+
+
