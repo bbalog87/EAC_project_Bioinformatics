@@ -2,7 +2,7 @@
 
 
 ### GLASS Pathogens
--**The official of WHO list GLASS pathogens**
+-**The official of WHO list [GLASS pathogens](https://www.who.int/initiatives/glass)**
 
 | Species                  | NCBI TaxID | Common name | Abbreviation |
 |--------------------------|------------|-------------|--------------|
