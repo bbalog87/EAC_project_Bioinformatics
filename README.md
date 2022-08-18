@@ -1,4 +1,4 @@
-# EAC_project_Bioinformatics
+# EAC_project - Genomic Epidemiology side project
 
 
 ### GLASS Pathogens
