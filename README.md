@@ -10,20 +10,22 @@ This project aims to:
 ### GLASS Pathogens
 -The official list of pathogens included in the Global Anti-Microbial Resistanace (AMR) Surveillance System (GLASS) supported by the World Health Organization (WHO) -- [GLASS pathogens](https://www.who.int/initiatives/glass)
 
-| Species                  | NCBI TaxID | Common name | Abbreviation |
-|--------------------------|------------|-------------|--------------|
-| Acinetobacter baumannii         | 470        |             |              |
-| Neisseria gonorrhoeae    | 485        |             |              |
-| Klebsiella pneumoniae    | 573        |             |              |
-| Staphylococcus aureus    | 1280       |             |              |
-| Streptococcus pneumoniae | 1313       |             |              |
-| Escherichia coli         | 562        |             |              |
-| Shigella dysenteriae     | 622        |             |              |
-| Salmonella enterica      | 28901      |             |              |
-| Salmonella typhi         | 90370      |             |              |
-| Shigella flexneri        | 623        |             |              |
-| Shigella sonnei          | 624        |             |              |
 
+| **Species**                | **NCBI TaxID** | **Abbreviation** |
+|----------------------------|----------------|------------------|
+| Acinetobacter baumannii    | 470            | Abaumannii       |
+| Acinetobacter haemolyticus | 29430          | Ahaemolyticus    |
+| Acinetobacter lwoffii      | 28090          | Alwoffi          |
+| Escherichia coli           | 562            | Ecoli            |
+| Klebsiella pneumoniae      | 573            | Kpneumoniae      |
+| Neisseria gonorrhoeae      | 485            | Ngonorrhoeae     |
+| Salmonella enterica        | 28901          | Senterica        |
+| Salmonella typhi           | 90370          | Styphi           |
+| Shigella dysenteriae       | 622            | Sdysenteriae     |
+| Shigella flexneri          | 623            | Sflexneri        |
+| Shigella sonnei            | 624            | Ssonnei          |
+| Staphylococcus aureus      | 1280           | Saureus          |
+| Streptococcus pneumoniae   | 1313           | Spneumoniae      |
 
 - **EAC partner States**
 
