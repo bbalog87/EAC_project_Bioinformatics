@@ -12,7 +12,7 @@ This project aims to:
 
 | Species                  | NCBI TaxID | Common name | Abbreviation |
 |--------------------------|------------|-------------|--------------|
-| Acinetobacter spp        | 470        |             |              |
+| Acinetobacter baumannii         | 470        |             |              |
 | Neisseria gonorrhoeae    | 485        |             |              |
 | Klebsiella pneumoniae    | 573        |             |              |
 | Staphylococcus aureus    | 1280       |             |              |
