@@ -1,4 +1,4 @@
-# EAC_project - Genomic Epidemiology side project
+# EAC_project - Genomic Epidemiology of GLASS pathogens in EAC Region 
 This project aims to:
 
 - (1) Conduct genomic epidemiology analyses on publicly available genomes of all Global Anti-Microbial Resistance (AMR) Surveillance System (GLASS) pathogens isolated in any of the East African Community (EAC) partner States;
