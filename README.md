@@ -7,7 +7,8 @@ This project aims to:
 
 
 
-- **GLASS Pathogens**
+ #### GLASS Pathogens
+
 The official list of pathogens included in the Global Anti-Microbial Resistanace (AMR) Surveillance System (GLASS) supported by the World Health Organization (WHO) -- [GLASS pathogens](https://www.who.int/initiatives/glass)
 
 
@@ -27,7 +28,7 @@ The official list of pathogens included in the Global Anti-Microbial Resistanace
 | Staphylococcus aureus      | 1280           | Saureus          |
 | Streptococcus pneumoniae   | 1313           | Spneumoniae      |
 
-- **EAC partner States**
+#### EAC partner States
 
 | Countries   | ISO3 | ISO2 |
 |-------------|------|------|
