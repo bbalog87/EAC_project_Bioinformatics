@@ -44,7 +44,7 @@ name where the samples were isolated, or the country is spelled differently.
  ### 2. Second Approach
 
  In the this approach I  will :
- - Step 1:  Download all in Genbank avaible GLASS pathogens assemblies 
+ - Step 1: Get all available genomes informations for all  GLASS pathogens assemblies (chromosomes, Scaffolds, contigs) in GenBank
  - Step 2: Parse the BioSample IDs 
  - Step 3 : use the Biosample IDs to parse the the country name in metadata
  - step 4: Retain only assemblies whose samples were isloated in the EAC region
@@ -62,9 +62,11 @@ echo "#### Working on $ACC....#####"
 
 mkdir -p NCBI_TaxID_${ACC}
 
-### Get all available genones at all assembly levels (chromosomes, Scaffolds, contigs) in GenBank database
-perl getSequenceInfo.pl -k bacteria -taxid $ACC -getSummaries NCBI_TaxID_${ACC}/NCBI_TaxID_${ACC}_summary.txt \
-                        -date 2003-01-01 -output NCBI_TaxID_${ACC} -dir genbank -log 
+### Get all available genomes informations for all assembly levels (chromosomes, Scaffolds, contigs) in GenBank database
+perl getSequenceInfo.pl -k bacteria -taxid $ACC -getSummaries NCBI_TaxID_${ACC}/NCBI_TaxID_${ACC}_summary.log \
+                        -date 2003-01-01 -output NCBI_TaxID_${ACC} -dir genbank 
+
+mv assembly_summary.txt NCBI_TaxID_${ACC}/NCBI_TaxID_${ACC}_summary.txt
 
 
 echo "#### Working on $ACC COMPLTED !! #####"
